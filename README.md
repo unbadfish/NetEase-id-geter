@@ -47,6 +47,12 @@ BeautifulSoup4
 
 当然byjson和byre就没有获取网页的过程了
 
+## 警告 
+
+requests.get并未考虑cookies，根据用户的反馈情况，未登陆的情况下只能获取10首歌。
+
+请前往[这里](https://curl.trillworks.com/)获得cookies
+
 ## 友情链接
 
 这个项目是我给[163MusicLyrics](https://github.com/jitwxs/163MusicLyrics)写的配套小程序
